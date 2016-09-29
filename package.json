@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "2016 SPA boilerplate",
   "scripts": {
-    "start": "webpack-dev-server --progress --colors",
-    "build": "webpack"
+    "start": "webpack --progress --colors --watch"
   },
   "author": "HotCustard",
   "license": "ISC",
@@ -14,6 +13,7 @@
     "react-dom": "^15.3.2"
   },
   "devDependencies": {
+    "babel-core": "^6.16.0",
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.16.0",
     "css-loader": "^0.25.0",
