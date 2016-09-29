@@ -5,7 +5,8 @@ class Content extends React.Component {
     return (
       <main className="p-a-3">
         <div className="container">
-          <p>Content</p>
+          <h2>Content</h2>
+          <p>Something awesome...</p>
         </div>
       </main>
     );
