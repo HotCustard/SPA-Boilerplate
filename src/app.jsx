@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from "react-dom";
+import Header from "./page/header.jsx";
+import Content from "./page/content.jsx";
+import Footer from "./page/footer.jsx";
+
+// Grab the parts of bootstrap we want to use
+import './app.scss'
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
+  <div className="page">
+    <Header />
+    <Content />
+    <Footer />
+  </div>,
   document.getElementById('root')
 );
-
-// export default class App {
-//
-//   constructor() {
-//     console.log("Started App");
-//   }
-//
-// }
-//
-// var app = new App();
